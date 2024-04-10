@@ -133,6 +133,29 @@
 
 
 //method chaining
-let username = window.prompt("enter your name");
-username = username.trim().charAt(0).toUpperCase()+username.slice(1).toLowerCase();
-alert(username);
+// let username = window.prompt("enter your name");
+// username = username.trim().charAt(0).toUpperCase()+username.slice(1).toLowerCase();
+// alert(username);
+
+// let real_no = Math.floor((Math.random()*10)+1);
+// let running = true;
+// let guess
+// while(running)
+// {
+//     guess = window.prompt("enter your no between 1-10");
+//     guess=Number(guess);
+//     if(real_no>guess)
+//     {
+//         window.alert("no is too low");
+//     }
+//     else if(real_no<guess)
+//     {
+//         window.alert("no is too high");
+//     }
+//     else if(real_no==guess)
+//     {
+//         window.alert("you got the right answer");
+//         running = false;
+//     }
+
+// }
