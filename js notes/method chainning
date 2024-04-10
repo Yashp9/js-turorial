@@ -1,0 +1,13 @@
+// let username = window.prompt("enter your name");
+// let first = username.trim();
+// first = first.charAt(0);
+// first = first.toUpperCase();
+// let last = username.slice(1);
+// last = last.toLowerCase();
+// alert(first+last);
+
+
+//method chaining
+let username = window.prompt("enter your name");
+username = username.trim().charAt(0).toUpperCase()+username.slice(1).toLowerCase();
+alert(username);

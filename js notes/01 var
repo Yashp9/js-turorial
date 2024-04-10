@@ -1,0 +1,21 @@
+//window.alert("hi");
+var a = 828; // var has a global scope 
+console.log(`the value of a is ${a}`);
+{
+    var a =67;
+    console.log(`the value of a inside the block is ${a}`);
+}
+console.log(`the value of a after changing it inside the block ${a}`);
+// output will be 828 , 67 , 67 thats why if you want tha diffrent value 
+//of the same variable in diffrent blocks then use let insted of var
+
+let b = 55;
+console.log(`the value of b is ${b}`);
+{
+    let b =54;
+    console.log(`the value of b inside the block is ${b}`);
+}
+console.log(`the value of b after changing it inside the block ${b}`);
+
+//var can be updated and reddeclared again but let can be updated but not redeclared.
+const name = "dhokla";

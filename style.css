@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    border:0;
+    background-color: powderblue;
+}
+button{
+    border:2px;
+    background-color: burlywood;
+    padding: 4px;
+    border-color: black;
+    border-style: solid;
+}

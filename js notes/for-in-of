@@ -1,0 +1,27 @@
+//for in loop
+let subject_marks = {
+    "science":67,
+    "maths":77,
+    "computer":99,
+    hindi:78
+}
+let animal = {
+    cow:67,
+    lion:5,
+    tiger:8,
+    zebra:66
+}
+console.log(subject_marks.hindi   );
+for(let a in subject_marks){
+    console.log(a+" = "+subject_marks[a]);
+}
+for(let keys in animal)
+{
+    console.log(`${animal[keys]} ${keys}`);
+}
+
+let arr = ["yashbro","yashpro","yashboss"]
+for(let x of arr)
+{
+    console.log(x);
+}

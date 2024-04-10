@@ -1,0 +1,26 @@
+//############## 02 {datatype[primitive] and objects[non-primitive]} ###############
+//nnbbssu =>null,no,BigInt,boolean,string,symbol,undefined.
+let a = null;
+let b = 67;
+let c = BigInt("9999");
+let d = true;
+let e = "my_name";
+let f = Symbol("$");
+let g = undefined;
+console.log(a,b,c,d,e,f,g)
+// console.log(`a = ${a} b = ${b} c = ${c}  d = ${d} e = ${e} f = ${f} g = ${g}`);
+console.log(typeof(c));
+
+//basics of object
+const school = {
+    "school_name":"vsixe",
+    "good":false,
+    "classes":22
+}
+console.log(school["school_name"],school["good"]);
+
+// syntax obj_type obj_name = {
+//    "var1":var_value,
+//    "var2":varvalue,
+//}
+//console.log(obj_name["var1"];
