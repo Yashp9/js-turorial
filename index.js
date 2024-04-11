@@ -159,3 +159,21 @@
 //     }
 
 // }
+let input_val = document.getElementById("value");
+let tofahrenhite = document.getElementById("far");
+let tocelsius = document.getElementById("cel");
+let result = document.getElementById("result");
+let temp;
+function convert()
+{
+    if(tocelsius.checked)
+    {
+      temp = (input_val.value-32)*5/9;
+      result.textContent = temp.toFixed(2)+" degree celsius";
+    }
+    if(tofahrenhite.checked)
+    {
+      temp = ((9/5)*input_val.value)+32;
+      result.textContent = temp.toFixed(2)+" degree fahrenhite";
+    }
+}
