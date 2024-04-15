@@ -158,22 +158,34 @@
 //         running = false;
 //     }
 
+// // }
+// let input_val = document.getElementById("value");
+// let tofahrenhite = document.getElementById("far");
+// let tocelsius = document.getElementById("cel");
+// let result = document.getElementById("result");
+// let temp;
+// function convert()
+// {
+//     if(tocelsius.checked)
+//     {
+//       temp = (input_val.value-32)*5/9;
+//       result.textContent = temp.toFixed(2)+" degree celsius";
+//     }
+//     if(tofahrenhite.checked)
+//     {
+//       temp = ((9/5)*input_val.value)+32;
+//       result.textContent = temp.toFixed(2)+" degree fahrenhite";
+//     }
 // }
-let input_val = document.getElementById("value");
-let tofahrenhite = document.getElementById("far");
-let tocelsius = document.getElementById("cel");
-let result = document.getElementById("result");
-let temp;
-function convert()
+
+let fruit = ["apple","mango","banana"];
+let fruitbasket = {b1:"apple",b2:"mango",b3:"banana"}
+for(x in fruitbasket)
 {
-    if(tocelsius.checked)
-    {
-      temp = (input_val.value-32)*5/9;
-      result.textContent = temp.toFixed(2)+" degree celsius";
-    }
-    if(tofahrenhite.checked)
-    {
-      temp = ((9/5)*input_val.value)+32;
-      result.textContent = temp.toFixed(2)+" degree fahrenhite";
-    }
+  console.log(`at position ${x} = ${fruitbasket[x]}`);
+  //here x will tell you the position and fruit[[x] will tell you the value]
+}
+for(y of fruit)
+{
+  console.log(y);
 }
